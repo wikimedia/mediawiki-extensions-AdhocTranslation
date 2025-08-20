@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalloWelt! GmbH"
+		]
+	},
+	"adhoctranslation-desc": "Live translation of page to user language",
+	"adhoctranslation-source-lang-not-supported": "Language code $1 is not supported as a source language",
+	"adhoctranslation-target-lang-not-supported": "Language code $1 is not supported as a target language",
+	"adhoctranslation-target-exists": "Page in target language already exists",
+	"adhoctranslation-same-lang": "Source and target languages are the same",
+	"adhoctranslation-ca-translate": "Translate to my language",
+	"adhoctranslation-ui-translating": "Translating...",
+	"adhoctranslation-ui-translated": "Content shown below was automatically translated",
+	"adhoctranslation-ui-error": "An error occurred while translating",
+	"adhoctranslation-ui-original": "Show original text",
+	"adhoctranslation-not-configured": "AdHocTranslation is not configured"
+}

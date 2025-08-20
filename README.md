@@ -1,0 +1,3 @@
+# AdhocTranslation
+
+## Basic configuration
