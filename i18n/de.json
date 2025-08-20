@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalloWelt! GmbH"
+		]
+	},
+	"adhoctranslation-desc": "Echtzeit-Übersetzung einer Seite in die Benutzersprache",
+	"adhoctranslation-ca-translate": "In meine Sprache übersetzen",
+	"adhoctranslation-source-lang-not-supported": "Der Sprachcode $1 wird als Ausgangssprache nicht unterstützt",
+	"adhoctranslation-target-lang-not-supported": "Der Sprachcode $1 wird als Zielsprache nicht unterstützt",
+	"adhoctranslation-target-exists": "Die Seite existiert bereits in der Zielsprache",
+	"adhoctranslation-same-lang": "Die Ausgangs- und Zielsprache sind identisch",
+	"adhoctranslation-ui-translating": "Übersetzen...",
+	"adhoctranslation-ui-translated": "Der angezeigte Inhalt wurde automatisch übersetzt",
+	"adhoctranslation-ui-error": "Beim Übersetzen ist ein Fehler aufgetreten",
+	"adhoctranslation-ui-original": "Originaltext anzeigen"
+}
