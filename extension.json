@@ -1,0 +1,69 @@
+{
+	"name": "AdhocTranslation",
+	"version": "2.0.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"Dejan Savuljesku",
+		"[https://www.hallowelt.com Hallo Welt! GmbH]"
+	],
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:AdhocTranslation",
+	"descriptionmsg": "adhoctranslation-desc",
+	"requires": {
+		"MediaWiki": ">= 1.43.0"
+	},
+	"MessagesDirs": {
+		"AdhocTranslation": "i18n"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\AdhocTranslation\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\AdhocTranslation\\Tests\\": "tests/phpunit/"
+	},
+	"attributes": {
+	},
+	"callback": "mwsInitComponents",
+	"ResourceModules": {
+		"ext.adhoctranslation.bootstrap": {
+			"scripts": [
+				"bootstrap.js"
+			],
+			"messages": [
+				"adhoctranslation-ui-translating",
+				"adhoctranslation-ui-translated",
+				"adhoctranslation-ui-error",
+				"adhoctranslation-ui-original"
+			],
+			"dependencies": [
+				"oojs-ui"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "AdhocTranslation/resources"
+	},
+	"Hooks": {
+		"SkinTemplateNavigation::Universal": "addContentAction",
+		"BlueSpiceDiscoveryTemplateDataProviderAfterInit": "addContentAction",
+		"BeforePageDisplay": "addContentAction"
+	},
+	"HookHandlers": {
+		"addContentAction": {
+			"class": "MediaWiki\\Extension\\AdhocTranslation\\Hook\\AddContentAction",
+			"services": [ "AdhocTranslation.PageTranslator" ]
+		}
+	},
+	"RestRoutes": [ {
+		"method": "POST",
+		"path": "/adhoc-translation/translate_page/{rev_id}",
+		"class": "MediaWiki\\Extension\\AdhocTranslation\\Rest\\TranslatePageHandler",
+		"services": [
+			"TitleFactory", "RevisionLookup", "AdhocTranslation.PageTranslator"
+		]
+	} ],
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"manifest_version": 2
+}
