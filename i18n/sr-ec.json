@@ -5,6 +5,7 @@
 		]
 	},
 	"adhoctranslation-ca-translate": "Преведи на мој језик",
+	"adhoctranslation-ui-translating": "Преводим...",
 	"adhoctranslation-ui-error": "Дошло је до грешке приликом превођења",
 	"adhoctranslation-ui-original": "Прикажи оригинални текст"
 }
