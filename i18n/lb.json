@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Volvox"
+		]
+	},
+	"adhoctranslation-target-lang-not-supported": "De Sproochcode $1 gëtt net als Zilsprooch ënnerstëtzt",
+	"adhoctranslation-ca-translate": "Op meng Sprooch iwwersetzen",
+	"adhoctranslation-ui-translating": "Iwwersetzen…",
+	"adhoctranslation-ui-error": "Beim Iwwersetzen ass e Feeler geschitt",
+	"adhoctranslation-ui-original": "Originaltext weisen"
+}

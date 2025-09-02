@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC"
+		]
+	},
+	"adhoctranslation-desc": "将页面实时翻译为用户语言",
+	"adhoctranslation-source-lang-not-supported": "语言代码$1不支持作为源语言",
+	"adhoctranslation-target-lang-not-supported": "语言代码$1不支持作为目标语言",
+	"adhoctranslation-target-exists": "目标语言页面已存在",
+	"adhoctranslation-same-lang": "源语言和目标语言相同",
+	"adhoctranslation-ca-translate": "翻译为我的语言",
+	"adhoctranslation-ui-translating": "正在翻译…",
+	"adhoctranslation-ui-translated": "下面展示的内容是经过自动翻译的",
+	"adhoctranslation-ui-error": "翻译时出错",
+	"adhoctranslation-ui-original": "显示原文",
+	"adhoctranslation-not-configured": "AdHocTranslation未配置"
+}
