@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bisang",
 			"Ykhwong"
 		]
 	},
-	"adhoctranslation-ui-error": "번역 중 오류가 발생했습니다"
+	"adhoctranslation-ca-translate": "내 언어로 번역하기",
+	"adhoctranslation-ui-translating": "번역 중...",
+	"adhoctranslation-ui-error": "번역 중 오류가 발생했습니다",
+	"adhoctranslation-ui-original": "원문 보기"
 }
