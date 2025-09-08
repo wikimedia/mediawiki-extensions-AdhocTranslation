@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"adhoctranslation-desc": "Traduction in directo de paginas in le lingua del usator",
+	"adhoctranslation-source-lang-not-supported": "Le codice de lingua $1 non es supportate como lingua de origine",
+	"adhoctranslation-target-lang-not-supported": "Le codice de lingua $1 non es supportate como lingua de destination",
+	"adhoctranslation-target-exists": "Le pagina in le lingua de destination ja existe",
+	"adhoctranslation-same-lang": "Le linguas de origine e de destination es le mesme",
+	"adhoctranslation-ca-translate": "Traducer in mi lingua",
+	"adhoctranslation-ui-translating": "Traduction…",
+	"adhoctranslation-ui-translated": "Le contento monstrate infra ha essite traducite automaticamente",
+	"adhoctranslation-ui-error": "Un error ha occurrite durante le traduction",
+	"adhoctranslation-ui-original": "Monstrar texto original",
+	"adhoctranslation-not-configured": "AdHocTranslation non es configurate"
+}
