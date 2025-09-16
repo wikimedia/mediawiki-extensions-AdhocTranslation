@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"adhoctranslation-desc": "תרגום חי של הדף לשפת המשתמש",
+	"adhoctranslation-source-lang-not-supported": "קוד השפה $1 אינו נתמך כשפת מקור",
+	"adhoctranslation-target-lang-not-supported": "קוד השפה $1 אינו נתמך כשפת יעד",
+	"adhoctranslation-target-exists": "דף בשפת היעד כבר קיים",
+	"adhoctranslation-same-lang": "שפת המקור ושפת היעד זהות",
+	"adhoctranslation-ca-translate": "לתרגם לשפה שלי",
+	"adhoctranslation-ui-translating": "תִרגוּם...",
+	"adhoctranslation-ui-translated": "התוכן שמוצג להלן תורגם אוטומטית",
+	"adhoctranslation-ui-error": "אירעה שגיאה בעת התרגום",
+	"adhoctranslation-ui-original": "הצגת הטקסט מקורי",
+	"adhoctranslation-not-configured": "ההרחבה AdHocTranslation אינה מוגדרת"
+}
