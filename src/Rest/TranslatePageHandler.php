@@ -35,6 +35,7 @@ class TranslatePageHandler extends SimpleHandler {
 
 	public function execute() {
 		$params = $this->getValidatedParams();
+		$body = $this->getValidatedBody();
 		$rev = $this->revisionLookup->getRevisionById( $params['rev_id'] );
 		if ( !$rev ) {
 			throw new HttpException( 'Revision not found', 404 );
@@ -43,7 +44,7 @@ class TranslatePageHandler extends SimpleHandler {
 		if ( !$title ) {
 			throw new HttpException( 'Title not found', 404 );
 		}
-		$text = $params['content'];
+		$text = $body['content'];
 		$status = $this->translator->getTranslationFromText( $text, $title, RequestContext::getMain()->getUser() );
 		if ( !$status->isOK() ) {
 			return $this->getResponseFactory()->createJson( [ 'error' => $status->getErrors() ], 400 );
@@ -99,7 +100,10 @@ class TranslatePageHandler extends SimpleHandler {
 	 * @inheritDoc
 	 */
 	public function getSupportedRequestTypes(): array {
-		return [ 'text/plain' ];
+		return [
+			'application/x-www-form-urlencoded',
+			'multipart/form-data',
+		];
 	}
 
 }

@@ -29,8 +29,10 @@ ext.adhocTranslation.Translator.prototype.translate = function ( e ) {
 	$.ajax( {
 		method: 'POST',
 		url: mw.util.wikiScript( 'rest' ) + '/adhoc-translation/translate_page/' + this.revision,
-		contentType: 'text/plain',
-		data: this.mode === 'client' ? this.$content.html() : ''
+		contentType: 'application/x-www-form-urlencoded',
+		data: {
+			content: this.mode === 'client' ? this.$content.html() : ''
+		}
 	} ).done( ( data ) => {
 		if ( data.hasOwnProperty( 'text' ) ) {
 			this.state = 'translated';
