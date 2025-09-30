@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"adhoctranslation-desc": "Tradución en directo da páxina á lingua do usuario",
+	"adhoctranslation-source-lang-not-supported": "O código de lingua «$1» non está admitido como lingua de orixe.",
+	"adhoctranslation-target-lang-not-supported": "O código de lingua «$1» non está admitido como lingua de destino",
+	"adhoctranslation-target-exists": "Xa existe a páxina na lingua de destino",
+	"adhoctranslation-same-lang": "As linguas de orixe e de destino coinciden",
+	"adhoctranslation-ca-translate": "Traducir á miña lingua",
+	"adhoctranslation-ui-translating": "Traducindo...",
+	"adhoctranslation-ui-translated": "O contido que se mostra a continuación foi traducido automaticamente",
+	"adhoctranslation-ui-error": "Produciuse un erro ao traducir",
+	"adhoctranslation-ui-original": "Mostrar o texto orixinal",
+	"adhoctranslation-not-configured": "AdHocTranslation non está configurado"
+}
