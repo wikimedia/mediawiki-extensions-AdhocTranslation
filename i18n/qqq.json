@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"HalloWelt! GmbH"
+			"HalloWelt! GmbH",
+			"Umherirrender"
 		]
 	},
-	"adhoctranslation-desc": "Extension description displayed on [[Special:Version]].",
+	"adhoctranslation-desc": "{{desc|name=AdhocTranslation|url=https://www.mediawiki.org/wiki/Extension:AdhocTranslation}}",
 	"adhoctranslation-source-lang-not-supported": "Error message when the source language code is not supported by the translation service.\n\nParameters:\n* $1 - Language code",
 	"adhoctranslation-target-lang-not-supported": "Error message when the target language code is not supported by the translation service.\n\nParameters:\n* $1 - Language code",
 	"adhoctranslation-target-exists": "Error message when a page already exists in the requested target language.",

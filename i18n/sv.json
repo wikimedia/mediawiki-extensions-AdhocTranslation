@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stefan2255"
+		]
+	},
+	"adhoctranslation-desc": "Liveöversättning av sidan till användarspråk",
+	"adhoctranslation-source-lang-not-supported": "Språkkoden $1 stöds inte som källspråk",
+	"adhoctranslation-target-lang-not-supported": "Språkkoden $1 stöds inte som målspråk",
+	"adhoctranslation-target-exists": "Sidan på målspråket finns redan",
+	"adhoctranslation-same-lang": "Käll- och målspråk är desamma",
+	"adhoctranslation-ca-translate": "Översätt till mitt språk",
+	"adhoctranslation-ui-translating": "Översätter...",
+	"adhoctranslation-ui-translated": "Innehållet som visas nedan har automatiskt översatts",
+	"adhoctranslation-ui-error": "Ett fel uppstod vid översättningen",
+	"adhoctranslation-ui-original": "Visa originaltext",
+	"adhoctranslation-not-configured": "AdHocTranslation är inte konfigurerad"
+}
