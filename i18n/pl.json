@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Woytecr"
+		]
+	},
+	"adhoctranslation-desc": "Tłumaczenie strony na żywo na język użytkownika",
+	"adhoctranslation-source-lang-not-supported": "Kod języka $1 nie jest obsługiwany jako język źródłowy",
+	"adhoctranslation-target-lang-not-supported": "Kod języka $1 nie jest obsługiwany jako język docelowy",
+	"adhoctranslation-target-exists": "Strona w języku docelowym już istnieje",
+	"adhoctranslation-same-lang": "Podano taki sam język źródłowy i docelowy.",
+	"adhoctranslation-ca-translate": "Przetłumacz na mój język",
+	"adhoctranslation-ui-translating": "Tłumaczenie...",
+	"adhoctranslation-ui-translated": "Treść wyświetlana poniżej została przetłumaczona automatycznie",
+	"adhoctranslation-ui-error": "Wystąpił błąd podczas tłumaczenia",
+	"adhoctranslation-ui-original": "Pokaż oryginalny tekst",
+	"adhoctranslation-not-configured": "AdHocTranslation nie jest skonfigurowany"
+}
