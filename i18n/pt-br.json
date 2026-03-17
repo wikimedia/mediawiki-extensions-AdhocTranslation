@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"adhoctranslation-desc": "Tradução ao vivo da página para o idioma do usuário",
+	"adhoctranslation-source-lang-not-supported": "O código de idioma $1 não é compatível como idioma de origem.",
+	"adhoctranslation-target-lang-not-supported": "O código de idioma $1 não é compatível como idioma de destino.",
+	"adhoctranslation-target-exists": "A página no idioma de destino já existe",
+	"adhoctranslation-same-lang": "Os idiomas de origem e destino são os mesmos",
+	"adhoctranslation-ca-translate": "Traduzir para o meu idioma",
+	"adhoctranslation-ui-translating": "Traduzindo...",
+	"adhoctranslation-ui-translated": "O conteúdo apresentado abaixo foi traduzido automaticamente.",
+	"adhoctranslation-ui-error": "Ocorreu um erro durante a tradução.",
+	"adhoctranslation-ui-original": "Mostrar texto original",
+	"adhoctranslation-not-configured": "O AdHocTranslation não está configurado"
+}
