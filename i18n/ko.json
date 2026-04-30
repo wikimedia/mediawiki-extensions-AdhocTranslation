@@ -2,11 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Bisang",
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
 	"adhoctranslation-ca-translate": "내 언어로 번역하기",
 	"adhoctranslation-ui-translating": "번역 중...",
 	"adhoctranslation-ui-error": "번역 중 오류가 발생했습니다",
-	"adhoctranslation-ui-original": "원문 보기"
+	"adhoctranslation-ui-original": "원문 보기",
+	"adhoctranslation-desc": "문서를 사용자의 언어로 실시간 번역",
+	"adhoctranslation-source-lang-not-supported": "$1 언어 코드는 원본 언어로써 지원되지 않습니다",
+	"adhoctranslation-target-lang-not-supported": "$1 언어 코드는 대상 언어로써 지원되지 않습니다",
+	"adhoctranslation-target-exists": "대상 언어로 된 문서가 이미 존재합니다",
+	"adhoctranslation-same-lang": "원본 언어와 대상 언어가 동일합니다",
+	"adhoctranslation-ui-translated": "아래 내용은 자동으로 번역되었습니다",
+	"adhoctranslation-not-configured": "AdHocTranslation이 구성되지 않았습니다"
 }
