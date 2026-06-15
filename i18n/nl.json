@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"McDutchie"
+			"McDutchie",
+			"Siebrand"
 		]
 	},
 	"adhoctranslation-desc": "Directe vertaling van pagina naar gebruikerstaal",
@@ -13,6 +14,6 @@
 	"adhoctranslation-ui-translating": "Wordt vertaald…",
 	"adhoctranslation-ui-translated": "De onderstaande inhoud is automatisch vertaald",
 	"adhoctranslation-ui-error": "Er is een fout opgetreden tijdens het vertalen",
-	"adhoctranslation-ui-original": "Originele tekst weergeven",
+	"adhoctranslation-ui-original": "Oorspronkelijke tekst weergeven",
 	"adhoctranslation-not-configured": "AdHocTranslation is niet geconfigureerd"
 }
