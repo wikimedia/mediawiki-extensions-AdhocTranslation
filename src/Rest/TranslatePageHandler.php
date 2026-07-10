@@ -33,6 +33,9 @@ class TranslatePageHandler extends SimpleHandler {
 		$this->translator = $translator;
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function execute() {
 		$params = $this->getValidatedParams();
 		$body = $this->getValidatedBody();
