@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"adhoctranslation-desc": "Turjun bogga si toos ah oo u beddel luqadda isticmaalaha",
+	"adhoctranslation-source-lang-not-supported": "Koodhka luuqadda $1 looma taageero inuu noqdo luqadda isha",
+	"adhoctranslation-target-lang-not-supported": "Koodhka luqadda $1 looma taageero inuu noqdo luqadda bartilmaameedka",
+	"adhoctranslation-target-exists": "Bogga ku qoran luqadda bartilmaameedka hore ayuu u jiray",
+	"adhoctranslation-same-lang": "Luqadda isha iyo luqadda bartilmaameedku waa isku mid",
+	"adhoctranslation-ca-translate": "U turjun luqaddayda",
+	"adhoctranslation-ui-translating": "Waa la turjumayaa...",
+	"adhoctranslation-ui-translated": "Mawduuca hoos lagu muujiyey si otomaatig ah ayaa loo turjumay",
+	"adhoctranslation-ui-error": "Khalad ayaa dhacay intii la turjumayay",
+	"adhoctranslation-ui-original": "Muuji qoraalka asalka ah",
+	"adhoctranslation-not-configured": "AdHocTranslation lama habayn"
+}
