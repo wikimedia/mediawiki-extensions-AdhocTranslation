@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Woytecr"
+			"Woytecr",
+			"PanWor"
 		]
 	},
 	"adhoctranslation-desc": "Tłumaczenie strony na żywo na język użytkownika",
@@ -10,7 +11,7 @@
 	"adhoctranslation-target-exists": "Strona w języku docelowym już istnieje",
 	"adhoctranslation-same-lang": "Podano taki sam język źródłowy i docelowy.",
 	"adhoctranslation-ca-translate": "Przetłumacz na mój język",
-	"adhoctranslation-ui-translating": "Tłumaczenie...",
+	"adhoctranslation-ui-translating": "Tłumaczenie…",
 	"adhoctranslation-ui-translated": "Treść wyświetlana poniżej została przetłumaczona automatycznie",
 	"adhoctranslation-ui-error": "Wystąpił błąd podczas tłumaczenia",
 	"adhoctranslation-ui-original": "Pokaż oryginalny tekst",
