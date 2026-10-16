@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"HalloWelt! GmbH"
+			"HalloWelt! GmbH",
+			"Justman10000"
 		]
 	},
 	"adhoctranslation-desc": "Echtzeit-Übersetzung einer Seite in die Benutzersprache",
@@ -13,5 +14,6 @@
 	"adhoctranslation-ui-translating": "Übersetzen...",
 	"adhoctranslation-ui-translated": "Der angezeigte Inhalt wurde automatisch übersetzt",
 	"adhoctranslation-ui-error": "Beim Übersetzen ist ein Fehler aufgetreten",
-	"adhoctranslation-ui-original": "Originaltext anzeigen"
+	"adhoctranslation-ui-original": "Originaltext anzeigen",
+	"adhoctranslation-not-configured": "AdHocTranslation ist nicht konfiguriert"
 }
