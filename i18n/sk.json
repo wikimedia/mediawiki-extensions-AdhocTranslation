@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"adhoctranslation-desc": "Živý preklad stránky do jazyka používateľa",
+	"adhoctranslation-source-lang-not-supported": "Kód jazyka $1 nie je podporovaný ako zdrojový jazyk",
+	"adhoctranslation-target-lang-not-supported": "Kód jazyka $1 nie je podporovaný ako cieľový jazyk",
+	"adhoctranslation-target-exists": "Stránka v cieľovom jazyku už existuje",
+	"adhoctranslation-same-lang": "Zdrojový a cieľový jazyk sú rovnaké",
+	"adhoctranslation-ca-translate": "Preložiť do môjho jazyka",
+	"adhoctranslation-ui-translating": "Prekladá sa...",
+	"adhoctranslation-ui-translated": "Obsah nižšie bol automaticky preložený",
+	"adhoctranslation-ui-error": "Pri preklade sa vyskytla chyba",
+	"adhoctranslation-ui-original": "Zobraziť pôvodný text",
+	"adhoctranslation-not-configured": "AdHocTranslation nie je nakonfigurované"
+}
